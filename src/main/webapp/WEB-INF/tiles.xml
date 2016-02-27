@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    
+    <definition name="index" template="/WEB-INF/jsp/partical/main.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/partical/index.jsp" />
+    </definition>
+    <definition name="dangkyphong" template="/WEB-INF/jsp/partical/main.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/partical/dangkyphong.jsp" />
+    </definition>
+    <definition name="quanlyphong" template="/WEB-INF/jsp/partical/main.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/partical/quanlyphong.jsp" />
+    </definition>
+    <definition name="quanlymaytinh" template="/WEB-INF/jsp/partical/main.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/partical/quanlymaytinh.jsp" />
+    </definition>
+    <definition name="themphong" template="/WEB-INF/jsp/partical/main.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/partical/themphong.jsp" />
+    </definition>
+    <definition name="themmay" template="/WEB-INF/jsp/partical/main.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/partical/themmay.jsp" />
+    </definition>
+    <definition name="chinhsuapc" template="/WEB-INF/jsp/partical/main.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/partical/chinhsuapc.jsp" />
+    </definition>
+</tiles-definitions>
